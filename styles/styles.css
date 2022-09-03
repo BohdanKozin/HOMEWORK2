@@ -1,0 +1,134 @@
+/* :root{  --pri-text-color: #212121 } 
+.main{ background-color: var(--pri-text-color)} */
+
+:root {
+    --primary-text-color: #212121;
+    --focus-text-color: #2196F3;
+    --other-text-color: #FFFFFF;
+    --logo-text-color: #000000;
+    --advantage-text-color: #757575;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+
+
+    position: absolute;
+    width: 1600px;
+    background-color: #ffffff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.9)
+}
+
+.Logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--logo-text-color)
+}
+
+.logospan {
+    color: var(--focus-text-color);
+}
+
+.nav-list,
+.communication {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.link :hover,
+.link :focus {
+    color: var(--focus-text-color);
+}
+.main{background: #2F303A}
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--other-text-color)
+}
+
+.btn-order { margin-left: 670px;
+    background-color: var(--focus-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--other-text-color);
+}
+
+.advantage-title {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.advantage-tit {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantage-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--advantage-text-color)
+}
+
+.title-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.team-title-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.team-post {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--advantage-text-color);
+}
+
+.footer {background: #2F303A}
+.Address-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--other-text-color);
+}
+
+.communication-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}
