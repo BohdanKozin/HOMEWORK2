@@ -159,7 +159,7 @@ body {
 .bnt-portfolio {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     text-align: center;
     color: var(--primary-text-color)
 }
@@ -174,7 +174,7 @@ body {
 .title-portfolio {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
 }
@@ -182,6 +182,6 @@ body {
 .text-portfolio {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     color: var(--advantage-text-color);
 }
