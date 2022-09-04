@@ -132,3 +132,41 @@ body {
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* Portfolio */
+
+.title-galety{ 
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;}
+    
+    .bnt-portfolio{ 
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color:var(--primary-text-color)}
+        .bnt-portfolio :hover,
+        .bnt-portfolio :focus,
+        .bnt-portfolio :active { 
+            background-color: var(--focus-text-color);
+                color:var(--other-text-color) ;
+                }
+                .title-portfolio{
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 36px;
+                    letter-spacing: 0.06em;
+                    color: var(--primary-text-color);}
+                   .text-portfolio{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 30px;
+                        color: var(--advantage-text-color);}
