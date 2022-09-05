@@ -14,17 +14,17 @@ body {
     font-style: normal;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-
-
-    position: absolute;
-    width: 1600px;
     background-color: #ffffff;
-    margin: 40px auto;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.9)
+    
+  
 }
 
+a{text-decoration: none;}
+address{list-style-type:none;
+    text-decoration: none;}
+
 .Logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -35,14 +35,21 @@ body {
     color: var(--focus-text-color);
 }
 
-.list{list-style-type:none;}
+.list{list-style-type:none;  }
 
-.nav-list,
-.communication { 
+.nav-knopky { 
+    color: var(--logo-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    }
+.communication { color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
+
+
 
 .link :hover,
 .link :focus {
@@ -63,15 +70,11 @@ body {
     color: var(--other-text-color)
 }
 
-.btn-order {
-    margin-left: 670px;
+.btn-order { font-family: 'Roboto', sans-serif;
     background-color: var(--focus-text-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: var(--other-text-color);
 }
@@ -97,7 +100,7 @@ body {
 }
 
 .advantage-text {
-    font-weight: 400;
+    
     font-size: 14px;
     line-height: 1.7;
     color: var(--advantage-text-color)
@@ -118,7 +121,7 @@ body {
 }
 
 .team-post {
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
@@ -130,14 +133,14 @@ body {
 }
 
 .Address-link {
-    font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     color: var(--other-text-color);
 }
 
 .communication-footer {
-    font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
@@ -162,13 +165,12 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-    text-align: center;
     color: var(--primary-text-color)
 }
 
-.bnt-portfolio :hover,
-.bnt-portfolio :focus,
-.bnt-portfolio :active {
+.bnt-link :hover,
+.bnt-link :focus,
+.bnt-link :active {
     background-color: var(--focus-text-color);
     color: var(--other-text-color);
 }
@@ -182,7 +184,7 @@ body {
 }
 
 .text-portfolio {
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.9;
     color: var(--advantage-text-color);
