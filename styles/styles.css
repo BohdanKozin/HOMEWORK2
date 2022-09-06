@@ -38,7 +38,7 @@ address{list-style-type:none;
 
 .list{list-style-type:none;  }
 
-
+.activ.corrent{color: var(--focus-text-color);}
 .nav-knopky { 
     color: var(--logo-text-color);
     font-weight: 500;
