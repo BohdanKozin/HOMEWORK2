@@ -30,12 +30,14 @@ address{list-style-type:none;
     line-height: 1.2;
     color: var(--logo-text-color)
 }
+.logospan-footer{color: var(--other-text-color);}
 
 .logospan {
     color: var(--focus-text-color);
 }
 
 .list{list-style-type:none;  }
+
 
 .nav-knopky { 
     color: var(--logo-text-color);
@@ -49,8 +51,8 @@ address{list-style-type:none;
     font-size: 14px;
     line-height: 1.14;
 }
-.communication-mail{color: var(--focus-text-color);}
-.communication-tel{color: var(--advantage-text-color);}
+.communication-mail,.communication-tel{color: var(--advantage-text-color)}
+
 
 
 .link :hover,
@@ -94,7 +96,8 @@ address{list-style-type:none;
     margin: -1px;
 }
 
-.aadvantage-title-two {
+.advantage-title-two {font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -163,7 +166,8 @@ address{list-style-type:none;
     margin: -1px;
 }
 
-.bnt-portfolio {
+.bnt-portfolio {font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -191,3 +195,4 @@ address{list-style-type:none;
     line-height: 1.9;
     color: var(--advantage-text-color);
 }
+.communication-footer:hover,.communication-footer:focus,.Address-link:hover,.Address-link:focus {color: var(--focus-text-color);}
