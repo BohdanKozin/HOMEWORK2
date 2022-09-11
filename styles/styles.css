@@ -93,11 +93,12 @@ address{list-style-type:none;
 /* main */
 
 
-.main {
-    background: #2F303A
-}
 
 /* <!-- hero --> */
+.hero-wraper{background-color: #2F303A;
+
+}
+
 .hero{ height: 600px;
 display: flex;
 flex-direction:column;
